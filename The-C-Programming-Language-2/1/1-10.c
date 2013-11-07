@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 	char c;
 	while((c = getchar()) != EOF){
 		if(c == '\t')
-			printf("\\t");
+			printf("\\t");		/*注意：有些人可能每次输出麻烦，会都先赋值给c最后统一输出，但这样是错的，因为c定义的时候是字符，不是字符串*/
 		else if (c == '\n')
 			printf("\\n");
 		else if(c == '\\')		

@@ -6,7 +6,7 @@
 #include <stdio.h>
 int main(void)
 {
-	int x = 67;
+	int x = 67; //1000011
 	printf("%d\n", bitcount(x));
 	return 0;
 }

@@ -30,6 +30,7 @@ int main(void)
 		tree = addtree(tree, t);
 	}
 	f2:treeprint(tree);
+	free(word);
 	return 0;
 }
 
